@@ -65,7 +65,7 @@ public class InGameResult extends SlotMachine {
 			
 			
 				do {
-					System.out.print("ENTER키를 누르면 슬롯머신이 작동됩니다.");
+					System.out.println("ENTER키를 누르면 슬롯머신이 작동됩니다.");
 					System.out.println("슬롯머신을 실행하시겠습니까?");
 					player = sc.nextLine();
 					countNum += num;
